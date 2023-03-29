@@ -7,8 +7,8 @@ ZoomMtg.i18n.load('en-US')
 ZoomMtg.i18n.reload('en-US')
 
 // setup your Meeting SDK auth endpoint here: https://github.com/zoom/meetingsdk-sample-signature-node.js
-var authEndpoint = ''
-var sdkKey = ''
+var authEndpoint = 'https://zoom-meeting-sdk-sample-signature-node.azurewebsites.net'
+var sdkKey = 'uHg6ciEVlSfUdWXcaxg8URDorIaoIkBtRyzD'
 var meetingNumber = '123456789'
 var passWord = ''
 var role = 0
@@ -19,7 +19,7 @@ var userEmail = ''
 // Webinars: https://marketplace.zoom.us/docs/sdk/native-sdks/web/client-view/webinars#join-webinar-with-registration-required
 var registrantToken = ''
 var zakToken = ''
-var leaveUrl = 'https://zoom.us'
+var leaveUrl = 'https://www.rioplay.in'
 
 function getSignature() {
   fetch(authEndpoint, {
